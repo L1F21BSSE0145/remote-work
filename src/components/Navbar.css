@@ -1,0 +1,29 @@
+
+
+    nav {
+      background-color:blue;
+      color: white;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+    }
+    .navbar {
+      gap: 30px;
+      display: flex;
+    }
+    .nv1 {
+      gap: 30px;
+      display: flex;
+
+    }
+
+    a {
+      color: white;
+      text-decoration: none;
+      padding: 8px 12px;
+    }
+
+    a:hover {
+      background-color: #555;
+      border-radius: 4px;
+    }
