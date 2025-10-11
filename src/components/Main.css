@@ -9,15 +9,17 @@ h1{
     color:blue;
      text-align: center;
 }
-p{
+article{
     color: #333;
     text-align: center;
+    font-size: 16px;
+    
 }
 .main1{
     text-align: center;
     margin-top: 10px;
-     position: absolute;
-     right: 35%;
+    position: absolute;
+    left:40%;
     top: 32%;
     border-radius: 50%;
     justify-content: center;

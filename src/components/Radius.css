@@ -1,6 +1,6 @@
 .radius {
     border-radius: 15px;
-    background-color: blue;
+    background-color: rgb(56, 56, 94);
     color: white;
     text-align: center;
     padding: 9px;
@@ -8,8 +8,6 @@
     top: 85%;
     text-align: center;
     width: 100%;
-
-
 }
 
 

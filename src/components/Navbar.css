@@ -1,29 +1,48 @@
 
 
     nav {
-      background-color:blue;
+      background-color:rgb(83, 83, 117);
       color: white;
       padding: 10px 20px;
       display: flex;
       justify-content: space-between;
+      border: 2px solid white;
+      border-radius: 10px;
     }
-    .navbar {
-      gap: 30px;
+    .nav-link
+    {
+       gap: 30px;
       display: flex;
+      list-style-type: none;
+      
     }
     .nv1 {
       gap: 30px;
       display: flex;
+      list-style-type: none;
 
     }
-
-    a {
+    .active
+    {
+      font-weight: bold;
+    }
+    
+    li a{
       color: white;
       text-decoration: none;
       padding: 8px 12px;
+      font-size: 20px;
+      cursor: pointer;
+
     }
 
-    a:hover {
-      background-color: #555;
-      border-radius: 4px;
-    }
+  .nav-link li a:hover 
+  {
+  color:black;
+  font-weight: bold;
+}
+  .nv1 li a:hover 
+  {
+  color:black;
+  font-weight: bold;
+}

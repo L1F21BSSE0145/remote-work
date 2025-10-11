@@ -1,0 +1,19 @@
+.home-page {
+  min-height: 100vh;
+  padding: 20px;
+  text-align: center;
+}
+.home-header
+{
+    padding: 12px;
+    justify-content: center;
+}
+.gridName{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    padding: 12px;
+    background-Color: #5f7497ff;
+    justify-Content:center;
+    width:100%;
+    min-Height:48vh;
+}

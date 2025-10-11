@@ -1,0 +1,48 @@
+.student-container {
+  max-width: 900px;
+  margin: 35px auto;
+  padding: 25px;
+  background: #f4f7fc;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.student-container h5 {
+  font-size: 2rem;
+  color: blue;
+}
+.student-list{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.student-card
+{
+  background: rgb(243, 239, 239);
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  width: 250px;
+  padding: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.student-card:hover {
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+.student-card h3 {
+  font-size: 1.3rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+.student-card p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 15px;
+}
+.student-card button {
+  background: #007bff;
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+}

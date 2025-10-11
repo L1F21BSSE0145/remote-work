@@ -1,0 +1,50 @@
+.T1{
+  max-width: 950px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #d6dae0;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+.T1 h3{
+    padding: 20px;
+    text-align: center;
+    margin:10px;
+    color: #2b4eff;
+    font-size: 2.5rem;
+}
+.TT{
+    display: flex;
+    justify-content: space-between;
+}
+.T2 h4{
+    padding: 10px;
+    margin:10px;
+    color:black;
+    font-size: 25px;
+}
+.TT label{
+    padding: 10px;
+    font-size: 20px;
+    margin:10px;
+}
+.TT input[type="text"]{
+    padding: 10px;
+    margin: 20px;
+}
+.TT h4{
+    padding: 20px;
+    margin:10px;
+    font-size: 25px;
+}
+.T5 p{
+    padding: 10px;
+    margin:10px;
+    color:blue;
+    font-size: 25px;
+    line-break: loose;
+}
+.TT a img{
+    padding: 10px;
+    margin: 10px;
+}
