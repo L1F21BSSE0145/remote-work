@@ -1,43 +1,37 @@
 import React from  "react";
 import Student from "./Student";
-import Main from "./Main";  
+import Radius from "./Radius.jsx";  
+import { useNavigate } from "react-router-dom";
 import "./Home.css";
+import Navbar from "./Navbar.jsx";
 
 const Home = () => {
-  const students = [
-    {
-      name: "Hamza Ali",
-      roll: "L1F21BSSE0145",
-      course: "Introduction to Computing",
-      departement: "Computer Science",
-      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRdAejDIGro-lOKwqMr4diJ6dy3utEZKxjDg&s",
-    },
-    {
-      name: "Ali Khan",
-      roll: "L1F21BSSE0146",
-      course: "Data Structures",
-      departement: "Computer Science",
-      image: "https://randomuser.me/api/portraits/men/32.jpg",
-    },
-  ];
-
+  const navigate = useNavigate();
   return (
-    <div className="home-page">
-      <Main />   
-      <main className="gridName">
-        {students.map((i, index) => (
-          <Student
-            key={index}
-            name={i.name}
-            roll={i.roll}
-            course={i.course}
-            departement={i.departement}
-            image={i.image}
-            figcaption={i.name}
-          />
-        ))}
-      </main>
+    <div>
+      <div className="home-container">
+      <h1>Welcome to Student Management System</h1>
+      <p>
+        Manage student registrations, offered subjects and CGPA calculations all in one place.
+      </p>
+
+      <div className="button-group">
+        <button className="register-btn" onClick={() => navigate("/Register")}>
+          Get Registered
+        </button>
+        <br />
+        <button className="subjects-btn" onClick={() => navigate("/Subjects")}>
+          Offered Subjects
+        </button>
+        <br />
+        <button className="cgpa-btn" onClick={() => navigate("/Cgpa")}>
+          CGPA Calculator
+        </button>
+      </div>
     </div>
+    <Radius />
+    </div>
+
   );
 };
 

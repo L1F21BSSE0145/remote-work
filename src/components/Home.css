@@ -1,19 +1,47 @@
-.home-page {
-  min-height: 100vh;
-  padding: 20px;
+/* Home.css */
+.home-container {
+  text-align: center;
+  padding: 50px;
+}
+.home-container h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+.home-container p {
+  font-size: 18px;
   text-align: center;
 }
-.home-header
-{
-    padding: 12px;
-    justify-content: center;
+
+.button-group {
+  margin-top: 15px;
+
+  
 }
-.gridName{
-    display:grid;
-    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-    padding: 12px;
-    background-Color: #5f7497ff;
-    justify-Content:center;
-    width:100%;
-    min-Height:48vh;
+
+
+.register-btn{
+  background-color: #e91e63;
+  color: white;
+  width: 350px;
+  padding: 10px 20px;
+  border-radius: 15px;
+  margin: 10px 0;
+}
+
+.subjects-btn {
+  background-color: #9c27b0;
+  color: white;
+  width: 350px;
+  padding: 10px 20px;
+  border-radius: 15px;
+  margin: 10px 0;
+}
+
+.cgpa-btn {
+  background-color: #f44336;
+  color: white;
+  width: 350px;
+  padding: 10px 20px;
+  border-radius: 15px;
+  margin: 10px 0;
 }
